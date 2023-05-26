@@ -87,10 +87,11 @@ npm i
 ```
 * Ejecutar la base de datos
 * Ejecutar la api rest
-* Ejecutar el proyecto (http://localhost:4200/)
+* Ejecutar el proyecto
 ```git
 ng serve 
 ```
+* La app se deploya en http://localhost:4200/
 
   
 
