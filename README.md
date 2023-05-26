@@ -93,15 +93,10 @@ npm i
 ng serve 
 ```
 * La app se deploya en http://localhost:4200/
-
-  
-
-
- 
 <br>
 
 </details>
- <br>
+
 
 ### 1.2) Configuración del proyecto desde cero [🔝](#índice-)
 
@@ -147,11 +142,12 @@ ng serve
 * `Aclaración` : El resto de las modificaciones aplicadas sobre la plantilla inicial, no se describen por temas de simplificación de doc. Para más info consultar el tutorial de [Creación Angular App](https://docs.angular.lat/tutorial/toh-pt0) para el uso de componentes, rutas, etc.
 
 
-
-
 <br>
 
 </details>
+
+
+
 
 ### 1.3) Tecnologías [🔝](#índice-)
 
@@ -179,10 +175,7 @@ ng serve
 
 </details>
 
-<br>
 
-
-</details>
 
 ### 1.4) Comandos útiles para Angular-cli [🔝](#índice-)
 
@@ -194,9 +187,10 @@ ng serve
 ```git
 ng g m pages/products/products-list --module app --route products-list
 ```
-* Creación de componentes
+* Creación de componentes con modulo
 ```git
-ng generate module components/navbar --module app
+ng g c components/navbar --module app
+ng g m components/navbar --module app
 ```
 
 
