@@ -68,7 +68,11 @@ Aplicación Web MicroFrontEnd para la gestión de Productos de ML implementada c
   <summary>Ver</summary>
 <br>
  
-* Instalamos la última versión LTS de [Nodejs(v18)](https://nodejs.org/en/download) 
+* Instalamos la última versión LTS de [Nodejs(v18)](https://nodejs.org/en/download)
+* Instalamos la cli de angular de forma global si es que no está aún instalado.
+```git
+npm install -g @angular/cli
+```
 * Una vez creado un entorno de trabajo a través de algún ide, clonamos el proyecto
 ```git
 git clone https://github.com/andresWeitzel/MicroFrontEnd_Products_ML_Angular
@@ -110,9 +114,13 @@ ng serve
 cd 'projectName'
 ```
 * Instalamos la última versión LTS de [Nodejs(v18)](https://nodejs.org/en/download)
-* Creamos la app con Next.js con una plantilla base.
+* Instalamos la cli de angular de forma global.
 ```git
-npx create-next-app@latest micro_front_end_users_ml_nextjs --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
+npm install -g @angular/cli
+```
+* Creamos la app (nos apareceran unas opciones de config, aceptamos crear routing y para estilos elegimos scss)
+```git
+ng new MicroFrontEnd_Products_ML_Angular
 ```
 * Usaremos [git](https://www.hostinger.com.ar/tutoriales/instalar-git-en-distintos-sistemas-operativos) como control de versiones. Nos posicionamos en la app e inicializamos git
 ```git
@@ -120,21 +128,21 @@ git init
 ```
 * Creamos el repositorio en github (sin readme) y agregamos la url del repositorio creado (ej: la siguiente)
 ```git
-git remote add origin https://github.com/andresWeitzel/MicroFrontEnd_Users_ML_NextJS
+git remote add origin https://github.com/andresWeitzel/MicroFrontEnd_Products_ML_Angula
 ```
 * Traemos los cambios del remoto, agregamos los nuevos cambios en local, commitiamos y los subimos al repo.
 ```git
 git pull origin master
 git add *
-git commit -m "Create Next.js app"
+git commit -m "Create Angular app"
 git push origin
 ```
 * Ejecutamos la app inicial
 ```git
-npm run dev
+ng serve
 ```
-* Ya tenemos una app funcional con una estructura inicial definida por NextJS. La aplicación queda deployada en http://localhost:3001
-* `Aclaración` : El resto de las modificaciones aplicadas sobre la plantilla inicial no se describen por temas de simplificación de doc. Para más info consultar el tutorial de [Creación Next.js App](https://nextjs.org/learn/basics/create-nextjs-app/setup) para el uso de componentes, rutas, etc.
+* Ya tenemos una app funcional con una estructura inicial definida por Angular. La aplicación queda deployada en http://localhost:3000
+* `Aclaración` : El resto de las modificaciones aplicadas sobre la plantilla inicial, no se describen por temas de simplificación de doc. Para más info consultar el tutorial de [Creación Angular App](https://docs.angular.lat/tutorial/toh-pt0) para el uso de componentes, rutas, etc.
 
 
 
@@ -150,18 +158,7 @@ npm run dev
 
 
  <br>
- 
-
-| **Tecnologías** | **Versión** | **Finalidad** |               
-| ------------- | ------------- | ------------- |
-| [NodeJS](https://nodejs.org/en/) | 14.18.1  | Librería JS |
-| [Mysql](https://www.mysql.com/) | 10.1 | SGDB | 
-| [XAMPP](https://www.apachefriends.org/es/index.html) | 3.2.2 | Paquete de servidores | 
-| [VSC](https://code.visualstudio.com/docs) | 1.72.2  | IDE |
-| [Postman](https://www.postman.com/downloads/) | 10.11  | Cliente Http |
-| [CMD](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd) | 10 | Símbolo del Sistema para linea de comandos | 
-| [Git](https://git-scm.com/downloads) | 2.29.1  | Control de Versiones |
-
+	
 </br>
 
 
@@ -237,12 +234,8 @@ npm run dev
  <br>
 
 #### Documentación
-* [Creación Next.js App](https://nextjs.org/learn/basics/create-nextjs-app/setup)
-* [ Next-ui components](https://nextui.org/)
-* [Importar bootstrap en Next](https://medium.com/frontendweb/how-to-add-bootstrap-in-next-js-de997371fd9c)
 
 #### Herramientas 
-* [Convertidor html a jsx](https://transform.tools/html-to-jsx)
 * [Fondos de pantallas unsplash](https://unsplash.com/it)
 
 
