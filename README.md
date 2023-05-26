@@ -87,7 +87,7 @@ npm i
 ```
 * Ejecutar la base de datos
 * Ejecutar la api rest
-* Ejecutar el proyecto
+* Ejecutar el proyecto (http://localhost:4200/)
 ```git
 ng serve 
 ```
@@ -141,7 +141,7 @@ git push origin
 ```git
 ng serve
 ```
-* Ya tenemos una app funcional con una estructura inicial definida por Angular. La aplicación queda deployada en http://localhost:3000
+* Ya tenemos una app funcional con una estructura inicial definida por Angular. La aplicación queda deployada en http://localhost:4200/
 * `Aclaración` : El resto de las modificaciones aplicadas sobre la plantilla inicial, no se describen por temas de simplificación de doc. Para más info consultar el tutorial de [Creación Angular App](https://docs.angular.lat/tutorial/toh-pt0) para el uso de componentes, rutas, etc.
 
 
