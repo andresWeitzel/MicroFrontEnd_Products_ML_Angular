@@ -21,6 +21,7 @@ Aplicación Web MicroFrontEnd para la gestión de Productos de ML implementada c
  - [1.1) Ejecución del Proyecto.](#11-ejecución-del-proyecto-)
  - [1.2) Configuración del proyecto desde cero](#12-configuración-del-proyecto-desde-cero-)
  - [1.3) Tecnologías.](#13-tecnologías-)
+ - [1.4) Comandos útiles para Angular-cli.](#14-comandos-útiles-para-angular-cli)
 
 ### Sección 2) Endpoints y Ejemplos 
  
@@ -173,6 +174,31 @@ ng serve
 | **Extensión** |              
 | -------------  | 
 | Prettier - Code formatter |
+
+<br>
+
+</details>
+
+<br>
+
+
+</details>
+
+### 1.4) Comandos útiles para Angular-cli [🔝](#índice-)
+
+<details>
+  <summary>Ver</summary>
+<br>
+
+* Creación de módulos con routing (páginas) 
+```git
+ng g m pages/products/products-list --module app --route products-list
+```
+* Creación de componentes
+```git
+ng generate module components/navbar --module app
+```
+
 
 <br>
 
