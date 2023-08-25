@@ -125,7 +125,7 @@ git init
 ```
 * Creamos el repositorio en github (sin readme) y agregamos la url del repositorio creado (ej: la siguiente)
 ```git
-git remote add origin https://github.com/andresWeitzel/MicroFrontEnd_Products_ML_Angula
+git remote add origin https://github.com/andresWeitzel/MicroFrontEnd_Products_ML_Angular
 ```
 * Traemos los cambios del remoto, agregamos los nuevos cambios en local, commitiamos y los subimos al repo.
 ```git
