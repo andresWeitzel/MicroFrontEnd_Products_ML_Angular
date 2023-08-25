@@ -80,7 +80,7 @@ git clone https://github.com/andresWeitzel/MicroFrontEnd_Products_ML_Angular
 ```
 * Nos posicionamos sobre el proyecto
 ```git
-cd 'projectName'
+cd 'nombreProyectoSinComillas'
 ```
 * Instalamos todas las dependencias necesarias
 ```git
@@ -117,7 +117,7 @@ npm install -g @angular/cli
 ```
 * Creamos la app (nos apareceran unas opciones de config, aceptamos crear routing y para estilos elegimos scss)
 ```git
-ng new MicroFrontEnd_Products_ML_Angular
+ng new 'nombreProyectoSinComillas'
 ```
 * Usaremos [git](https://www.hostinger.com.ar/tutoriales/instalar-git-en-distintos-sistemas-operativos) como control de versiones. Nos posicionamos en la app e inicializamos git
 ```git
